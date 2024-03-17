@@ -1,4 +1,4 @@
-# Tree Propagation Filter Factory Demo
+# Filter Factory Demo
 
 ## [LIVE DEMO 🔗](https://concat-filter-demo.s1.elias.dev/) 
 
@@ -76,5 +76,11 @@ data.contains("Finger" or "Bein" or "Hals") and data.contains("Arm" or "Nase" or
 This can be represented in UI as:
 
 ![img2.png](mdres%2Fimg2.png)
+
+This will result in this output: 
+```
+Husten, Hals, Nase, Oberkörper
+Kaputter Fingernagel, Finger, Hand, Arm
+```
 
 
