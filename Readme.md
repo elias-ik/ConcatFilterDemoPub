@@ -39,7 +39,6 @@ Its important to note that the current approach is extendable to support any arb
 
 #### Current Filter Types
 | Filter | Description | In Code | 
-
 | ----- | ----- | ------ |
 | Contains | Checks if a string contains a specific substring | `.contains({{parameter}})` |
 | And | Concatenates an arbitray amount of "*leaf condition*" which all need to be true | `{{condition 1}} & {{condition 2}} & ... {{condition n}}` |
